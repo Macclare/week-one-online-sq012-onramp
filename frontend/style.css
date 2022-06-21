@@ -1,0 +1,139 @@
+body{
+    Padding:0;
+    box-sizing: border-box;
+    width: 1440px;
+    background-color: rgb(228, 224, 220);
+}
+main{
+    display: flex;
+}
+.container{
+    background: #ea4c3c;
+    width: 15vw;
+    height: 97vh;
+    border-radius: 20px;
+    z-index: -1;
+}
+.box{
+    display:flex;
+    width: 80vw;
+    height:78vh;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -10%;
+}
+.left{
+    background-color:#F1F1FB;
+    height:78vh;
+    width: 10vw;
+    padding: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right{
+    background-color:white;
+    height:78vh;
+    width: 62vw;
+    padding: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+}
+span{
+    color: #393A62;
+}
+table{
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    width: 40vw;
+}
+th{
+    color: #393A62;
+    font-size: 15x;
+    padding: 8px;
+}
+td{
+    padding: 0.5em;
+}
+tr:hover{
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+}
+button{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #0000001e;
+    padding: 0.5em;
+}
+a{
+    color: #ea4c3c;
+    margin-top: 10px;
+}
+.gray{
+    color: #747399;
+}
+.pay{
+    margin-top: 10%;
+    color:#393A62;
+}
+.plan{
+
+    background-color:#ea4c3c;
+    color: white;
+    height: 20vh;
+    padding: 1em;
+    border-radius: 10px;
+}
+.plan button{
+    background-color:#ea4c3c;
+    color: white;
+}
+.icons{
+    height:3vh;
+    margin-top: 1%;
+    display: flex;
+    padding-bottom: 30px;
+   
+}
+.tab{
+    display: flex;
+}
+.tab p{
+    margin-left: 15px;
+    align-self: center;
+}
+.log{
+    display: flex;
+    margin-top: 130%;
+}
+.profile{
+    width: 5vw;
+    height: 8vh;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    margin-bottom: 20%;
+    width: 80%;
+}
+.image p{
+    margin-left: 15px;
+    align-self: center;
+}
+.visa{
+    display: flex;
+    height:7vh;
+    margin-top: 1%;
+    color: #393A62;
+}
+.visa button{
+    color: #393A62;
+    margin-left: 50%;
+    border: 1px solid #0000001e;
+    padding: 0.5em;
+    font-size: 15px;
+    border-radius: 5px;
+}
